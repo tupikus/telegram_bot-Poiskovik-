@@ -63,8 +63,8 @@ def query(query):
     print("the first element in rows will be the column names.")
     rows = sqlmgr.query(query)
     cols = rows.pop(0)
-
-    print("column names")
-    print(cols)
-    print("data")
+    #
+    # print("column names")
+    # print(cols)
+    # print("data")
     print(rows)
