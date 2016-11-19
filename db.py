@@ -9,6 +9,7 @@ import config
 import sys
 
 
+
 class SqlMgr:
     def __init__(self):
 
